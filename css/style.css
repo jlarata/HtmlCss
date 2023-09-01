@@ -1,4 +1,7 @@
 
+@import 'variables.css';
+@import "reset.css";
+@import "navbar.css";
 
 /*ni font-face ni import funcionaron sin INSTALAR la font en la compu local... 
 ¿qué sucede si hosteo la web?*/
@@ -7,15 +10,16 @@
   src: url('fonts/Pacifico-Regular.ttf') format ('truetype');
   }
 
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
 
 
 .cajas
   {
     margin: 5px;
-
-
     border-width: 3px;
     border-style: dotted;
     border-color: #389F85;
